@@ -107,13 +107,13 @@ export default function ContactPage() {
           <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-xs flex items-center gap-4">
             <img
               src="/images/owner.webp"
-              alt="Hazrat Peer Muhammad Usman Alvi"
-              className="h-16 w-16 rounded-full object-cover border-2 border-emerald-700"
+              alt="Hazrat Sufi Maulana Peer Muhammad Usman Shah Alvi"
+              className="h-16 w-16 rounded-full object-cover object-top border-2 border-amber-400 shadow-sm"
             />
             <div>
-              <h3 className="text-xs font-bold text-slate-900">Hazrat Peer Muhammad Usman Alvi Sahib</h3>
-              <p className="text-[11px] text-emerald-700 font-medium">Founder & Spiritual Mentor (17+ Years)</p>
-              <p className="text-[10px] text-slate-500 mt-0.5">Available for Istikhara and Rohani Counseling.</p>
+              <h3 className="text-xs font-bold text-slate-900">Hazrat Sufi Maulana Peer Muhammad Usman Shah Alvi</h3>
+              <p className="text-[11px] text-emerald-700 font-medium">Founder & Spiritual Mentor (17+ Years Experience)</p>
+              <p className="text-[10px] text-slate-500 mt-0.5">Available for Istikhara and Quranic Rohani Counseling.</p>
             </div>
           </div>
         </div>

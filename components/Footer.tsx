@@ -82,7 +82,7 @@ export default function Footer() {
             </Link>
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
-              Under the spiritual mentorship of <strong>Hazrat Peer Muhammad Usman Alvi Sahib</strong>. Serving humanity for over 17 years through Quranic teachings, spiritual counseling, welfare assistance, and authentic herbal wellness.
+              Under the spiritual mentorship of <strong>Hazrat Sufi Maulana Peer Muhammad Usman Shah Alvi</strong>. Serving humanity for over 17 years through Quranic teachings, spiritual counseling, welfare assistance, and authentic herbal wellness.
             </p>
 
             <p className="font-arabic text-xs text-amber-300 font-medium" dir="rtl">
@@ -171,7 +171,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/about" className="hover:text-emerald-400 transition-colors">
-                  About Peer Muhammad Usman Alvi
+                  About Peer Muhammad Usman Shah Alvi
                 </Link>
               </li>
             </ul>

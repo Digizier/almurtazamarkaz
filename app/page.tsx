@@ -144,7 +144,7 @@ export default function HomePage() {
               </p>
 
               <p className="text-xs sm:text-sm text-emerald-100/90 leading-relaxed max-w-2xl">
-                Under the spiritual guidance of <strong>Hazrat Peer Muhammad Usman Alvi Sahib</strong>, Al-Murtaza Spiritual Center has served thousands across Pakistan and abroad through authentic Quranic teachings, spiritual healing (Rohani Ilaj), Istikhara guidance, and humanitarian welfare projects.
+                Under the spiritual guidance of <strong>Hazrat Sufi Maulana Peer Muhammad Usman Shah Alvi</strong>, Al-Murtaza Spiritual Center has served thousands across Pakistan and abroad through authentic Quranic teachings, spiritual healing (Rohani Ilaj), Istikhara guidance, and humanitarian welfare projects.
               </p>
 
               <div className="pt-2 flex flex-wrap gap-2.5">
@@ -360,13 +360,19 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
             {/* Owner Image */}
             <div className="lg:col-span-5 flex justify-center">
-              <div className="relative aspect-square w-64 sm:w-80 overflow-hidden rounded-2xl border-4 border-emerald-800/20 shadow-xl bg-slate-100">
+              <div className="relative aspect-square w-64 sm:w-80 overflow-hidden rounded-2xl border-4 border-amber-400/40 shadow-xl bg-slate-900 group">
                 <img
                   src="/images/owner.webp"
-                  alt="Hazrat Peer Muhammad Usman Alvi Sahib"
-                  className="h-full w-full object-cover object-top"
+                  alt="Hazrat Sufi Maulana Peer Muhammad Usman Shah Alvi"
+                  className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/70 via-transparent to-transparent opacity-80" />
+                <div className="absolute bottom-2 left-2 right-2 text-center">
+                  <span className="inline-block rounded-full bg-amber-400/90 px-2.5 py-0.5 text-[10px] font-bold text-slate-950 shadow-md">
+                    صاحبِ اجازت و خلافت (17 سالہ تجربہ)
+                  </span>
+                </div>
               </div>
             </div>
 
@@ -376,14 +382,14 @@ export default function HomePage() {
                 Founder & Spiritual Mentor
               </span>
               <h2 className="text-lg sm:text-2xl font-black text-slate-900">
-                Hazrat Peer Muhammad Usman Alvi Sahib
+                Hazrat Sufi Maulana Peer Muhammad Usman Shah Alvi
               </h2>
-              <p className="font-arabic text-sm text-emerald-800 font-semibold" dir="rtl">
-                پیرِ طریقت حضرت پیر محمد عثمان علوی صاحب
+              <p className="font-arabic text-sm text-emerald-800 font-bold" dir="rtl">
+                پیرِ طریقت، رہبرِ شریعت، حضرت صوفی مولانا پیر محمد عثمان شاہ علوی
               </p>
 
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                For over <strong>17 years</strong>, Peer Muhammad Usman Alvi Sahib has devoted his life to guiding individuals seeking spiritual solace, healing, and moral upliftment. Under his patronage, Al-Murtaza Spiritual Center remains a sanctuary of hope, education, and humanitarian relief.
+                For over <strong>17 years</strong>, Hazrat Sufi Maulana Peer Muhammad Usman Shah Alvi has devoted his life to authentic Quranic spiritual healing (Rohani Ilaj), Istikhara guidance, and humanitarian welfare. Associated with 12 sacred Sufi lineages (Salasil-e-Aaliya) under the blessed transmission of his Murshid-e-Kareem Hazrat Khawaja Muhammad Arif Tabassum Naqeebi Satti (R.A).
               </p>
 
               <div className="grid grid-cols-2 gap-2 pt-2 text-xs text-slate-700">
